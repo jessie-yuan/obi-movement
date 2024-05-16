@@ -20,7 +20,3 @@ def motor2urdf(motors):
     res.append(units2rad(motors[i] - OFFSETS[i]))
   return res
 
-motors = motor2urdf([25511,16895,15525,17863,15683,26628])
-print(motors)
-print(urdf2motor(motors))
-
